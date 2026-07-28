@@ -1,0 +1,6 @@
+{
+  "name": "MoonlitSapphire 2.0",
+  "description": "Premium interactive digital universe portfolio with 4 adaptive themes, a visual timeline, and a server-side Gemini AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
