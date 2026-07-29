@@ -1089,21 +1089,23 @@ export default function App() {
               >
                 {tab === 'home' ? t.nav.home
                   : tab === 'projects' ? t.nav.projects
-                  : tab === 'poetry' ? t.nav.poetry
-                  : tab === 'songs' ? t.nav.songs
-                  : tab === 'certificates' ? t.nav.certificates
-                  : tab === 'memories' ? t.nav.memories
-                  : tab === 'guestbook' ? t.nav.guestbook
-                  : t.nav.contact}
+                    : tab === 'poetry' ? t.nav.poetry
+                      : tab === 'songs' ? t.nav.songs
+                        : tab === 'certificates' ? t.nav.certificates
+                          : tab === 'memories' ? t.nav.memories
+                            : tab === 'guestbook' ? t.nav.guestbook
+                              : t.nav.contact}
               </button>
             );
           })}
         </nav>
 
         {/* Right tools and buttons */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           <LanguageToggle />
-          <ThemeSelector currentTheme={currentTheme} onThemeChange={setCurrentTheme} />
+          <div className="hidden sm:block">
+            <ThemeSelector currentTheme={currentTheme} onThemeChange={setCurrentTheme} />
+          </div>
 
           {/* Hamburger Mobile Menu Toggle */}
           <button
@@ -1127,6 +1129,9 @@ export default function App() {
             transition={{ duration: 0.3 }}
             className="fixed top-[68px] left-0 right-0 z-30 bg-[var(--col-bg-glass)] backdrop-blur-lg border-b border-[var(--col-border)] p-5 flex flex-col gap-2 shadow-2xl xl:hidden uppercase tracking-wider text-xs font-bold"
           >
+            <div className="flex sm:hidden justify-center pb-2 mb-1 border-b border-[var(--col-border)]">
+              <ThemeSelector currentTheme={currentTheme} onThemeChange={setCurrentTheme} />
+            </div>
             {['home', 'projects', 'poetry', 'songs', 'certificates', 'memories', 'guestbook', 'contact'].map((tab) => {
               const isActive = activeTab === tab;
               return (
@@ -1141,12 +1146,12 @@ export default function App() {
                 >
                   {tab === 'home' ? t.nav.home
                     : tab === 'projects' ? t.nav.projects
-                    : tab === 'poetry' ? t.nav.poetry
-                    : tab === 'songs' ? t.nav.songs
-                    : tab === 'certificates' ? t.nav.certificates
-                    : tab === 'memories' ? t.nav.memories
-                    : tab === 'guestbook' ? t.nav.guestbook
-                    : t.nav.contact}
+                      : tab === 'poetry' ? t.nav.poetry
+                        : tab === 'songs' ? t.nav.songs
+                          : tab === 'certificates' ? t.nav.certificates
+                            : tab === 'memories' ? t.nav.memories
+                              : tab === 'guestbook' ? t.nav.guestbook
+                                : t.nav.contact}
                 </button>
               );
             })}
