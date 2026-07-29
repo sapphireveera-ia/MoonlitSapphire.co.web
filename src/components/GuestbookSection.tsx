@@ -35,20 +35,7 @@ export default function GuestbookSection() {
       } else {
         // Default entries
         setEntries([
-          {
-            id: 'gb-1',
-            name: 'Bintang Aurora',
-            message: 'Website portofolio yang sangat indah! Tema Moonlit Universe-nya terasa magis sekali. Desain visualnya luar biasa.',
-            rating: 5,
-            date: new Date('2026-07-01T10:30:00Z').toISOString()
-          },
-          {
-            id: 'gb-2',
-            name: 'Rian Cahaya',
-            message: 'Fitur Ask Sapphire sangat responsif dan membantu menjelaskan proyek-proyek Anda. Sukses terus!',
-            rating: 5,
-            date: new Date('2026-07-03T15:45:00Z').toISOString()
-          }
+         
         ]);
       }
     }

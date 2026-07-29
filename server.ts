@@ -21,20 +21,7 @@ function readGuestbook(): any[] {
     console.error("Gagal membaca guestbook file, menggunakan fallback memory:", error);
   }
   return [
-    {
-      id: "demo-1",
-      name: "Bintang Aurora",
-      message: "Website portofolio yang sangat indah! Tema Moonlit Universe-nya terasa magis sekali. Desain visualnya luar biasa.",
-      rating: 5,
-      date: "2026-07-01T10:30:00Z"
-    },
-    {
-      id: "demo-2",
-      name: "Rian Cahaya",
-      message: "Fitur Ask Sapphire sangat responsif dan membantu menjelaskan proyek-proyek Anda. Sukses terus!",
-      rating: 5,
-      date: "2026-07-03T15:45:00Z"
-    }
+  
   ];
 }
 
