@@ -536,7 +536,7 @@ export default function App() {
     {
       id: "song-1",
       title: "quitely",
-      artist: "Safira Nur Azkia (☾)",
+      artist: "sapphire(☾)",
       mood: "Vulnerable & Quiet",
       coverUrl: "purple",
       duration: "2:28", // ganti sesuai durasi asli file mp3 kamu
@@ -548,7 +548,7 @@ export default function App() {
     {
       id: "song-2",
       title: "3 a.m",
-      artist: "Safira Nur Azkia (☾)",
+      artist: "sapphire(☾)",
       mood: "Melancholic (Deep Mood)",
       coverUrl: "blue",
       duration: "2:19",
@@ -559,7 +559,7 @@ export default function App() {
     {
       id: "song-3",
       title: "lonely moon",
-      artist: "Safira Nur Azkia (☾)",
+      artist: "sapphire(☾)",
       mood: "Soothing (Lullaby)",
       coverUrl: "indigo",
       duration: "2:19",
@@ -570,7 +570,7 @@ export default function App() {
     {
       id: "song-4",
       title: "i tried, didn't i?",
-      artist: "Safira Nur Azkia (☾)",
+      artist: "sapphire(☾)",
       mood: "Melancholic (Deep Mood)",
       coverUrl: "rose",
       duration: "1:04",
@@ -581,7 +581,7 @@ export default function App() {
     {
       id: "song-5",
       title: "we used to say hello",
-      artist: "Safira Nur Azkia (☾)",
+      artist: "sapphire(☾)",
       mood: "Indie Rock (Yearning Mood)",
       coverUrl: "rose",
       duration: "0.58",
