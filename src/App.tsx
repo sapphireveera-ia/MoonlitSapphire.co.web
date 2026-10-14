@@ -602,7 +602,9 @@ export default function App() {
     { id: "cert-8", title: "Competition AI x Creativity Hackathon", issuer: "Alibaba Cloud", date: "2026", category: "competition", image: "assets/images/certificates/c6.jpg" },
     { id: "cert-9", title: "Samsung Innovation Campus", issuer: "Samsung", date: "2024", category: "tech", image: "assets/images/certificates/c7.jpg" },
     { id: "cert-10", title: "Generation Impact Conference", issuer: "Impact Network Global", date: "2025", category: "forum", image: "assets/images/certificates/c8.jpg" },
-    { id: "cert-11", title: "National Poetry Writing Competition", issuer: "Sastra Nusantara Foundation", date: "2024", category: "competition", image: "assets/images/certificates/c9.jpg" }
+    { id: "cert-11", title: "National Poetry Writing Competition", issuer: "Sastra Nusantara Foundation", date: "2024", category: "competition", image: "assets/images/certificates/c9.jpg" },
+    { id: "cert-12", title: "Investor Daily Summit 2025", issuer: "B-UNIVERSE", date: "2025", category: "forum", image: "assets/images/certificates/ids25.pdf" },
+    { id: "cert-13", title: "Investor Daily Summit 2026", issuer: "B-UNIVERSE", date: "2026", category: "forum", image: "assets/images/certificates/ids26.pdf" },
   ];
 
 
